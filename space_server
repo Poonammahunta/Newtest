@@ -1,0 +1,14 @@
+#! /usr/bin/python
+
+import sys
+import subprocess
+
+# This code to find out the space running in system
+
+findcmd = "df -hT"
+s = subprocess.Popen(findcmd,shell=True,stdout=subprocess.PIPE)
+out,err = s.communicate()
+out_put = out.splitlines()
+f.open("path")
+f.write()
+f.close
